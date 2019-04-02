@@ -1,0 +1,11 @@
+{
+  "name": "SET-Tokens",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/sparknz/SET-Tokens.git",
+  "author": "Mike Tamis <mike.tamis@spark.co.nz>",
+  "license": "",
+  "devDependencies": {
+    "style-dictionary": "^2.7.0"
+  }
+}
