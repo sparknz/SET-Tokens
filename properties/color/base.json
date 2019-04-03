@@ -1,13 +1,73 @@
 {
   "color": {
     "base": {
-      "gray": {
-        "light" : { "value": "#CCCCCC" },
-        "medium": { "value": "#999999" },
-        "dark"  : { "value": "#111111" }
+      "white": { "value": "#FFFFFF" },
+      "black": { "value": "#000000" },
+      "neutral": {
+        "900": { "value": "#374047" },
+        "800": { "value": "#5f6e78" },
+        "700": { "value": "#7f8a93" },
+        "600": { "value": "#97a1a7" },
+        "500": { "value": "#acb4b9" },
+        "400": { "value": "#bec4c8" },
+        "300": { "value": "#cfd3d6" },
+        "200": { "value": "#dee1e3" },
+        "100": { "value": "#ebedee" },
+        "000": { "value": "#f8f9f9" }
       },
-      "red": { "value": "#FF0000" },
-      "green": { "value": "#00FF00" }
+      "primary": {
+        "base": { "value": "#00897b" },
+        "light": { "value": "#4ebaaa" },
+        "dark": { "value": "#005b4f" }
+      },
+      "secondary":  {
+        "base": { "value": "#29b6f6" },
+        "light": { "value": "#73e8ff" },
+        "dark": { "value": "#0086c3" }
+      },
+      "tertiary": { "value": "#03A9F4" },
+      "accent": { "value": "#03A9F4" }
+    },
+    "text": {
+      "primary": { "value": "#212121" },
+      "secondary": { "value": "#757575" },
+      "on": {
+        "primary": { "value": "#e0f2f1" },
+        "secoundary": { "value": "#e3f2fd" }
+      },
+      "disable": { "value": "#bdbbbb" },
+      "success": { "value": "rgba(0, 0, 0, 0.85)" },
+      "error": { "value": "rgba(0, 0, 0, 0.85)" },
+      "info": { "value": "rgba(0, 0, 0, 0.85)" },
+      "placeholder": { "value": "#9ea0a5" }
+    },
+    "alert": {
+      "error": { "value": "#DF1F00" },
+      "notify": { "value": "#CFEEFF" }
+    },
+    "interation":  {
+      "base": { "value": "#2196f3" },
+      "light": { "value": "#90caf9" },
+      "dark": { "value": "#1976d2" }
+    },
+    "focus": { "value": "#ffbf47" },
+    "background": {
+      "disable": { "value": "#bdbbbb" },
+      "active": { "value": "#d8dce6" },
+      "success": { "value": "#f6ffed" },
+      "error": { "value": "#fff1f0" },
+      "info": { "value": "#e6f7ff" }
+    },
+    "border": {
+      "regular": { "value": "#BDBDBD" },
+      "success": { "value": "#38b249" },
+      "error": { "value": "#ffa39e" },
+      "info": { "value": "#91d5ff" }
+    },
+    "icon": {
+      "success": { "value": "#52c41a" },
+      "error": { "value": "#f5222d" },
+      "info": { "value": "#1890ff" }
     }
   }
 }
