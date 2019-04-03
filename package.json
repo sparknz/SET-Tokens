@@ -1,10 +1,12 @@
 {
-  "name": "SET-Tokens",
+  "name": "set-tokens",
   "version": "0.0.1",
-  "main": "index.js",
   "repository": "https://github.com/sparknz/SET-Tokens.git",
   "author": "Mike Tamis <mike.tamis@spark.co.nz>",
   "license": "",
+  "scripts": {
+    "build": "style-dictionary build"
+  },
   "devDependencies": {
     "style-dictionary": "^2.7.0"
   }
