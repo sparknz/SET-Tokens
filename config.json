@@ -20,6 +20,16 @@
         "format": "android/colors"
       }]
     },
+    "web/json": {
+      "transformGroup": "web",
+      "buildPath": "build/web/",
+      "files": [
+          {
+              "destination": "tokens.json",
+              "format": "json/flat"
+          }
+      ]
+    },
     "ios": {
       "transformGroup": "ios",
       "buildPath": "build/ios/",
