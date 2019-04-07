@@ -16,17 +16,83 @@
         "000": { "value": "#f8f9f9" }
       },
       "primary": {
-        "base": { "value": "#00897b" },
-        "light": { "value": "#4ebaaa" },
-        "dark": { "value": "#005b4f" }
+        "base": { "value": "{color.brand.green.base.value}" },
+        "light": { "value": "{color.brand.green.light.value}" },
+        "dark": { "value": "{color.brand.green.dark.value}" }
       },
-      "secondary":  {
-        "base": { "value": "#29b6f6" },
-        "light": { "value": "#73e8ff" },
-        "dark": { "value": "#0086c3" }
+      "secondary": {
+        "base": { "value": "{color.brand.orange.base.value}" },
+        "light": { "value": "{color.brand.orange.light.value}" },
+        "dark": { "value": "{color.brand.orange.dark.value}" }
+      },
+      "grey": {
+        "0": { "value": "#fafafa" },
+        "1": { "value": "#e8e8e8" },
+        "2": { "value": "#b2b2b2" },
+        "3": { "value": "#999999" },
+        "4": { "value": "#666666" },
+        "5": { "value": "#333333" }
       },
       "tertiary": { "value": "#03A9F4" },
       "accent": { "value": "#03A9F4" }
+    },
+    "brand": {
+      "green": {
+        "base": {
+          "value": "#00AF55",
+          "warning": "Don't use this color directly use color.base.[primary|secondary].base"
+        },
+        "light": {
+          "value": "#82c86e",
+          "warning": "Don't use this color directly use color.base.[primary|secondary].light"
+        },
+        "dark": {
+          "value": "#82c86e",
+          "warning": "Don't use this color directly use color.base.[primary|secondary].dark"
+        }
+      },
+      "pink": {
+        "base": {
+          "value": "#EC008C",
+          "warning": "Don't use this color directly use color.base.[primary|secondary].base"
+        },
+        "light": {
+          "value": "#f07db4",
+          "warning": "Don't use this color directly use color.base.[primary|secondary].light"
+        },
+        "dark": {
+          "value": "#c0087f",
+          "warning": "Don't use this color directly use color.base.[primary|secondary].dark"
+        }
+      },
+      "orange": {
+        "base": {
+          "value": "#FF9B00",
+          "warning": "Don't use this color directly use color.base.[primary|secondary].base"
+        },
+        "light": {
+          "value": "#f9b104",
+          "warning": "Don't use this color directly use color.base.[primary|secondary].light"
+        },
+        "dark": {
+          "value": "#F26823",
+          "warning": "Don't use this color directly use color.base.[primary|secondary].dark"
+        }
+      },
+      "purple": {
+        "base": {
+          "value": "#5F259F",
+          "warning": "Don't use this color directly use color.base.[primary|secondary].base"
+        },
+        "light": {
+          "value": "#75529d",
+          "warning": "Don't use this color directly use color.base.[primary|secondary].light"
+        },
+        "dark": {
+          "value": "#352364",
+          "warning": "Don't use this color directly use color.base.[primary|secondary].dark"
+        }
+      }
     },
     "text": {
       "primary": { "value": "#212121" },
@@ -45,10 +111,13 @@
       "error": { "value": "#DF1F00" },
       "notify": { "value": "#CFEEFF" }
     },
-    "interation":  {
-      "base": { "value": "#2196f3" },
-      "light": { "value": "#90caf9" },
-      "dark": { "value": "#1976d2" }
+    "interation": {
+      "base": { "value": "#0096E6" },
+      "light": { "value": "#6ed2ff" },
+      "dark": {
+        "value": "#1976d2",
+        "comment": "Interaction hover color"
+      }
     },
     "focus": { "value": "#ffbf47" },
     "background": {
