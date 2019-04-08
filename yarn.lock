@@ -162,6 +162,11 @@ resolve-from@^3.0.0:
   resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-3.0.0.tgz#b22c7af7d9d6881bc8b6e653335eebcb0a188748"
   integrity sha1-six699nWiBvItuZTM17rywoYh0g=
 
+return-deep-diff@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/return-deep-diff/-/return-deep-diff-0.3.0.tgz#674693fa9bade51fc4cde4bcbf8c196ee916ffe8"
+  integrity sha512-wGy41lh8lngHo+0ZK2qovjf+UciIjAYK7gPXRdHwcvQFjIdCJNuLfN+zFfs5uqZXiW4lKmVAsuLIvJgjLVjTMw==
+
 style-dictionary@^2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/style-dictionary/-/style-dictionary-2.7.0.tgz#9576257a6829a8c7481a661a70bb8c81d2307599"
