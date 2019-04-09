@@ -2,12 +2,12 @@ const path = require('path');
 const fs = require('fs');
 
 const themes = [
-'purple-orange',
-'pink-green',
-'green-orange',
-'pink-purple',
-'purple-green',
-'orange-pink',
+    'purple-orange',
+    'pink-green',
+    'green-orange',
+    'pink-purple',
+    'purple-green',
+    'orange-pink',
 ]
 
 
