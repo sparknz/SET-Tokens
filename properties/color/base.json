@@ -111,8 +111,11 @@
       "error": { "value": "#DF1F00" },
       "notify": { "value": "#CFEEFF" }
     },
-    "interation": {
-      "base": { "value": "#0096E6" },
+    "interaction": {
+      "base": { 
+        "value": "#0096E6",
+        "comment": "Interaction color" 
+      },
       "light": { "value": "#6ed2ff" },
       "dark": {
         "value": "#1976d2",
