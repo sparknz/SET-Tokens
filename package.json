@@ -1,10 +1,16 @@
 {
-  "name": "set-tokens",
-  "version": "0.0.1",
+  "name": "@sparknz/set-tokens",
+  "version": "0.0.6",
   "repository": "https://github.com/sparknz/SET-Tokens.git",
   "author": "Mike Tamis <mike.tamis@spark.co.nz>, David Xu <david.xu@spark.co.nz>",
   "license": "",
+  "main": "build/index.js",
+  "files": [
+    "build",
+    "properties"
+  ],
   "scripts": {
+    "prepublish": "yarn run build",
     "build": "node ./build.js",
     "clean": "rm -rf build",
     "test": "echo \"Error: no test specified\" && exit 1"
