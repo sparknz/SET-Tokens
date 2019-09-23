@@ -4,7 +4,6 @@
   "repository": "https://github.com/sparknz/SET-Tokens.git",
   "author": "Mike Tamis <mike.tamis@spark.co.nz>, David Xu <david.xu@spark.co.nz>",
   "license": "",
-  "main": "index.js",
   "scripts": {
     "build": "node ./build.js",
     "clean": "rm -rf build",
