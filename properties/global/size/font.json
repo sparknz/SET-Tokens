@@ -1,0 +1,38 @@
+{
+    "size":{
+        "font":{
+            "xxs": {
+                "md" : {"value": "10px"}, 
+                "tb": {"value": "10px"}
+            },
+            "xs": {
+                "md" : {"value": "12px"},
+                "tb": {"value": "10px"}
+            },
+            "small": {
+                "md" : {"value": "14px"}, 
+                "tb": {"value": "12px"}
+            },
+            "default" : {
+                "md" : {"value": "16px"}, 
+                "tb": {"value": "14px"}
+            },
+            "large": {
+                "md" : {"value": "24px"}, 
+                "tb": {"value": "16px"}
+            },
+            "xl": {
+                "md" : {"value": "32px"}, 
+                "tb": {"value": "24px"}
+            },
+            "xxl": {
+                "md" : {"value": "40px"}, 
+                "tb": {"value": "32px"}
+            },
+            "xxxl":{
+                "md" : {"value" : "48px"},
+                "tb": {"value": "40px"}
+            }
+        }
+    }
+}

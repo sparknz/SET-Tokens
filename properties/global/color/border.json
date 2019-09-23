@@ -1,0 +1,49 @@
+{
+    "color": {
+        "border": {
+            "default": {
+                "default": { "value": "{color.base.orange.default.value}"},
+                "invert": {"value": "{color.base.orange.default.value}"}
+            },
+            "alt1": {
+                "default": { "value": "{color.base.orange.default.value}"},
+                "invert": {"value": "{color.base.orange.default.value}"}
+            },
+            "alt2": {
+                "default": { "value": "{color.base.orange.default.value}"},
+                "invert": {"value": "{color.base.orange.default.value}"}
+            },
+            "error": {
+                "default": { "value": "{color.base.orange.default.value}"},
+                "invert": {"value": "{color.base.orange.default.value}"}
+            },
+            "info": {
+                "default": { "value": "{color.base.orange.default.value}"},
+                "invert": {"value": "{color.base.orange.default.value}"}
+            }, 
+            "success": {
+                "default": { "value": "{color.base.orange.default.value}"},
+                "invert": {"value": "{color.base.orange.default.value}"}
+            },
+            "interaction": {
+                "default": { 
+                    "default": {"value": "{color.base.orange.default.value}"},
+                    "invert": {"value": "{color.base.orange.default.value}"}
+                },
+                "hover": { 
+                    "default": {"value": "{color.base.orange.default.value}"},
+                    "invert": {"value": "{color.base.orange.default.value}"}
+                },
+                "disabled": { 
+                    "default": {"value": "{color.base.orange.default.value}"},
+                    "invert": {"value": "{color.base.orange.default.value}"}
+                },
+                "active": { 
+                    "default": {"value": "{color.base.orange.default.value}"},
+                    "invert": {"value": "{color.base.orange.default.value}"}
+                }
+            }
+        }
+    }
+}
+  

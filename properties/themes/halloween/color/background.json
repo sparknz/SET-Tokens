@@ -1,0 +1,18 @@
+{
+    "color": {
+        "background": {
+            "default": {
+                "default": { "value": "{color.base.black.value}"},
+                "invert": {"value": "{color.base.black.value}"}
+            },
+            "alt1": {
+                "default": { "value": "{color.base.black.value}"},
+                "invert": {"value": "{color.base.black.value}"}
+            },
+            "alt2": {
+                "default": { "value": "{color.base.black.value}"},
+                "invert": {"value": "{color.base.black.value}"}
+            }
+        }
+    }
+}

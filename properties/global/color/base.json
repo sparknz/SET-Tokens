@@ -1,0 +1,71 @@
+{
+    "color": {
+        "base": {
+            "orange": {
+                "default" : { "value": "#CCCCCC" },
+                "light": { "value": "#999999" },
+                "lighter": { "value": "#000000" },
+                "lightest": { "value": "#000000" },
+                "dark"  : { "value": "#000000" },
+                "darker": { "value": "#000000" },
+                "darkest": { "value": "#000000" }
+            },
+            "purple":{
+                "default" : { "value": "#CCCCCC" },
+                "light": { "value": "#999999" },
+                "lighter": { "value": "#000000" },
+                "lightest": { "value": "#000000" },
+                "dark"  : { "value": "#000000" },
+                "darker": { "value": "#000000" },
+                "darkest": { "value": "#000000" }
+            },
+            "green":{
+                "default" : { "value": "#CCCCCC" },
+                "light": { "value": "#999999" },
+                "lighter": { "value": "#000000" },
+                "lightest": { "value": "#000000" },
+                "dark"  : { "value": "#000000" },
+                "darker": { "value": "#000000" },
+                "darkest": { "value": "#000000" }
+            },
+            "pink":{
+                "default" : { "value": "#CCCCCC" },
+                "light": { "value": "#999999" },
+                "lighter": { "value": "#000000" },
+                "lightest": { "value": "#000000" },
+                "dark"  : { "value": "#000000" },
+                "darker": { "value": "#000000" },
+                "darkest": { "value": "#000000" }
+            },
+            "blue":{
+                "default" : { "value": "#CCCCCC" },
+                "light": { "value": "#999999" },
+                "lighter": { "value": "#000000" },
+                "lightest": { "value": "#000000" },
+                "dark"  : { "value": "#000000" },
+                "darker": { "value": "#000000" },
+                "darkest": { "value": "#000000" }
+            },
+            "red":{
+                "default" : { "value": "#111111" },
+                "light": { "value": "#999999" },
+                "lighter": { "value": "#000000" },
+                "lightest": { "value": "#000000" },
+                "dark"  : { "value": "#000000" },
+                "darker": { "value": "#000000" },
+                "darkest": { "value": "#000000" }
+            },
+            "gray":{
+                "default" : { "value": "#CCCCCC" },
+                "light": { "value": "#999999" },
+                "lighter": { "value": "#000000" },
+                "lightest": { "value": "#000000" },
+                "dark"  : { "value": "#000000" },
+                "darker": { "value": "#000000" },
+                "darkest": { "value": "#000000" }
+            },
+            "black": { "value": "#000000" },
+            "white": { "value": "#000000" }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "size":{
+        "spacing":{
+            "xxs": {
+                "md" : {"value": "8px"}, 
+                "tb": {"value": "8px"}
+            },
+            "xs": {
+                "md" : {"value": "16px"},
+                "tb": {"value": "8px"}
+            },
+            "small": {
+                "md" : {"value": "24px"}, 
+                "tb": {"value": "16px"}
+            },
+            "default" : {
+                "md" : {"value": "32px"}, 
+                "tb": {"value": "24px"}
+            },
+            "large": {
+                "md" : {"value": "40px"}, 
+                "tb": {"value": "32px"}
+            },
+            "xl": {
+                "md" : {"value": "48px"}, 
+                "tb": {"value": "40px"}
+            },
+            "xxl": {
+                "md" : {"value": "56px"}, 
+                "tb": {"value": "48px"}
+            },
+            "xxxl":{
+                "md" : {"value" : "64px"},
+                "tb": {"value": "56px"}
+            }
+        }
+    }
+}
