@@ -1,6 +1,6 @@
 {
   "name": "set-tokens",
-  "author": "David Xu",
+  "author": "David Xu <david.xu@spark.co.nz>",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
