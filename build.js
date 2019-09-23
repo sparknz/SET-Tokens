@@ -3,7 +3,7 @@ const StyleDictionaryPackage = require('style-dictionary');
 function getScssConfig(theme){
   return {
     "transformGroup": "scss",
-    "buildPath": `build/scss/`,
+    "buildPath": `dist/scss/`,
     "files": [{
       "destination": `${theme}_variable.scss`,
       "format": "scss/variables",
@@ -13,7 +13,7 @@ function getScssConfig(theme){
 
 function getSketchConfig(theme){
   return {
-    "buildPath": `build/sketch/`,
+    "buildPath": `dist/sketch/`,
     "transforms": ["attribute/cti", "name/cti/kebab", "color/sketch", "size/rem"],
     "files": [{
       "destination": `${theme}_palettes.sketchpalette`,
@@ -25,7 +25,7 @@ function getSketchConfig(theme){
 
 function getJsConfig(theme){
   return {
-    "buildPath": `build/js/`,
+    "buildPath": `dist/js/`,
     "transformGroup": "js",
     "files": [{
       "destination": `${theme}.json`,
