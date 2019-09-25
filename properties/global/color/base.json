@@ -55,17 +55,17 @@
                 "darker": { "value": "#000000" },
                 "darkest": { "value": "#000000" }
             },
-            "gray":{
+            "neutral":{
+                "white": { "value": "#000000" },
                 "default" : { "value": "#CCCCCC" },
                 "light": { "value": "#999999" },
                 "lighter": { "value": "#000000" },
                 "lightest": { "value": "#000000" },
                 "dark"  : { "value": "#000000" },
                 "darker": { "value": "#000000" },
-                "darkest": { "value": "#000000" }
-            },
-            "black": { "value": "#000000" },
-            "white": { "value": "#000000" }
+                "darkest": { "value": "#000000" },
+                "black": { "value": "#000000" }
+            }
         }
     }
 }

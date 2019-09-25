@@ -1,0 +1,15 @@
+{
+    "color": {
+        "main": {
+            "default": {
+                "default": { "value": "{color.base.pink.default.value}"},
+                "invert": {"value": "{color.base.pink.default.value}"}
+            },
+            "alt1": {
+                "default": { "value": "{color.base.green.default.value}"},
+                "invert": {"value": "{color.base.green.default.value}"}
+            }
+        }
+
+    }
+}
