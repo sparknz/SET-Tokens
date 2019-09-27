@@ -2,44 +2,44 @@
     "color": {
         "background": {
             "default": {
-                "default": { "value": "{color.base.orange.default.value}"},
-                "invert": {"value": "{color.base.orange.default.value}"}
+                "default": { "value": "{color.base.neutral.white.value}"},
+                "invert": {"value": "{color.base.neutral.black.value}"}
             },
             "alt1": {
-                "default": { "value": "{color.base.orange.default.value}"},
-                "invert": {"value": "{color.base.orange.default.value}"}
+                "default": { "value": "{color.base.neutral.light.value}"},
+                "invert": {"value": "{color.base.neutral.dark.value}"}
             },
             "alt2": {
-                "default": { "value": "{color.base.orange.default.value}"},
-                "invert": {"value": "{color.base.orange.default.value}"}
+                "default": { "value": "{color.base.neutral.black.value}"},
+                "invert": {"value": "{color.base.neutral.white.value}"}
             },
             "error": {
-                "default": { "value": "{color.base.orange.default.value}"},
-                "invert": {"value": "{color.base.orange.default.value}"}
+                "default": { "value": "{color.base.red.default.value}"},
+                "invert": {"value": "{color.base.red.default.value}"}
             }, 
             "info": {
-                "default": { "value": "{color.base.orange.default.value}"},
-                "invert": {"value": "{color.base.orange.default.value}"}
+                "default": { "value": "{color.base.orange.light.value}"},
+                "invert": {"value": "{color.base.orange.light.value}"}
             }, 
             "success": {
-                "default": { "value": "{color.base.orange.default.value}"},
-                "invert": {"value": "{color.base.orange.default.value}"}
+                "default": { "value": "{color.base.green.light.value}"},
+                "invert": {"value": "{color.base.green.light.value}"}
             },
             "interaction": { 
-                "default": {"value": "{color.base.orange.default.value}"},
-                "invert": {"value": "{color.base.orange.default.value}"}
+                "default": {"value": "{color.base.blue.default.value}"},
+                "invert": {"value": "{color.base.blue.default.value}"}
             },
             "hover": { 
-                "default": {"value": "{color.base.orange.default.value}"},
-                "invert": {"value": "{color.base.orange.default.value}"}
+                "default": {"value": "{color.base.blue.dark.value}"},
+                "invert": {"value": "{color.base.blue.dark.value}"}
             },
             "disabled": { 
-                "default": {"value": "{color.base.orange.default.value}"},
-                "invert": {"value": "{color.base.orange.default.value}"}
+                "default": {"value": "{color.base.neutral.default.value}"},
+                "invert": {"value": "{color.base.neutral.default.value}"}
             },
             "active": { 
-                "default": {"value": "{color.base.orange.default.value}"},
-                "invert": {"value": "{color.base.orange.default.value}"}
+                "default": {"value": "{color.base.blue.light.value}"},
+                "invert": {"value": "{color.base.blue.light.value}"}
             }
         }
     }

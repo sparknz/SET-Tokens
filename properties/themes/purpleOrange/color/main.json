@@ -2,12 +2,12 @@
     "color": {
         "main": {
             "default": {
-                "default": { "value": "{color.base.pink.default.value}"},
-                "invert": {"value": "{color.base.pink.default.value}"}
+                "default": { "value": "{color.base.purple.default.value}"},
+                "invert": {"value": "{color.base.purple.default.value}"}
             },
             "alt1": {
-                "default": { "value": "{color.base.green.default.value}"},
-                "invert": {"value": "{color.base.green.default.value}"}
+                "default": { "value": "{color.base.orange.default.value}"},
+                "invert": {"value": "{color.base.orange.default.value}"}
             }
         }
 

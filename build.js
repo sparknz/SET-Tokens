@@ -14,7 +14,7 @@ function getScssConfig(theme){
 function getSketchConfig(theme){
   return {
     "buildPath": `dist/sketch/`,
-    "transforms": ["attribute/cti", "name/cti/kebab", "color/sketch", "size/rem"],
+    "transforms": ["attribute/cti", "name/cti/kebab", "color/sketch"],
     "files": [{
       "destination": `${theme}_palettes.sketchpalette`,
       "format": "sketch/palette/v2",
@@ -26,10 +26,21 @@ function getSketchConfig(theme){
 function getJsConfig(theme){
   return {
     "buildPath": `dist/js/`,
-    "transformGroup": "js",
+    "transformGroup": "web",
     "files": [{
       "destination": `${theme}.json`,
       "format": "json/nested",
+    }]
+  }
+}
+
+function getDocsConfig(theme){
+  return {
+    "buildPath": `dist/docs/`,
+    "transformGroup": "web",
+    "files": [{
+      "destination": `${theme}.json`,
+      "format": "json/flat",
     }]
   }
 }
@@ -43,7 +54,8 @@ function getStyleDictionaryConfig(theme){
         "platforms": {
           "scss": getScssConfig(theme),
           "sketch": getSketchConfig(theme),
-          "js": getJsConfig(theme)
+          "js": getJsConfig(theme),
+          "docs": getDocsConfig(theme),
         }
       }
 }
