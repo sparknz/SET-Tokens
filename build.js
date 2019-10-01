@@ -37,7 +37,7 @@ function getJsConfig(theme){
 function getDocsConfig(theme){
   return {
     "buildPath": `dist/docs/`,
-    "transformGroup": "web",
+    "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
     "files": [{
       "destination": `${theme}.json`,
       "format": "json/flat",
