@@ -2,16 +2,16 @@
     "color": {
         "text": {
             "default": {
-                "default": { "value": "{color.base.neutral.default.value}"},
-                "invert": {"value": "{color.base.neutral.default.value}"}
+                "default": { "value": "{color.base.neutral.darkest.value}"},
+                "invert": {"value": "{color.base.neutral.lightest.value}"}
             },
             "alt1": {
-                "default": { "value": "{color.base.neutral.default.value}"},
-                "invert": {"value": "{color.base.neutral.default.value}"}
+                "default": { "value": "{color.base.neutral.darker.value}"},
+                "invert": {"value": "{color.base.neutral.lighter.value}"}
             },
             "alt2": {
-                "default": { "value": "{color.base.neutral.default.value}"},
-                "invert": {"value": "{color.base.neutral.default.value}"}
+                "default": { "value": "{color.base.neutral.dark.value}"},
+                "invert": {"value": "{color.base.neutral.light.value}"}
             },
             "error": {
                 "default": { "value": "{color.base.red.default.value}"},
