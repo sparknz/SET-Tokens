@@ -10,6 +10,5 @@
                 "invert": {"value": "{color.base.neutral.light.value}"}
             }
         }
-
     }
 }
