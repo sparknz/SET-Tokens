@@ -1,0 +1,26 @@
+{
+    "color": {
+        "background": {
+            "main1": {
+                "default": { "value": "{color.base.neutral.black.value}"},
+                "invert": {"value": "{color.base.neutral.black.value}"}
+            },
+            "main2": {
+                "default": { "value": "{color.base.neutral.light.value}"},
+                "invert": {"value": "{color.base.neutral.light.value}"}
+            },
+            "default": {
+                "default": { "value": "{color.base.neutral.dark.value}"},
+                "invert": {"value": "{color.base.neutral.dark.value}"}
+            },
+            "alt1": {
+                "default": { "value": "{color.base.neutral.black.value}"},
+                "invert": {"value": "{color.base.neutral.black.value}"}
+            },
+            "alt2": {
+                "default": { "value": "{color.base.neutral.black.value}"},
+                "invert": {"value": "{color.base.neutral.black.value}"}
+            }
+        }
+    }
+}

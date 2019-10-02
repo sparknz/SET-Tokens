@@ -1,0 +1,15 @@
+{
+    "layout":{
+        "zIndex":{
+            "bottomlessPit": {"value": -9999},
+            "default": {"value": 1},
+            "dropdown": {"value": 200},
+            "overlay": {"value": 1000},
+            "sticky": {"value": 1000},
+            "spinner": {"value": 1000},
+            "popover": {"value": 1000},
+            "modal": {"value": 1001},
+            "overTheMoon": {"value": 9999}
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "size":{
+        "spacing":{
+            "xxs": {"value": "8px"},
+            "xs": {"value": "16px"},
+            "small": {"value": "24px"},
+            "default" : {"value": "32px"},
+            "large": {"value": "40px"},
+            "xl": {"value": "48px"},
+            "xxl": {"value": "56px"},
+            "xxxl":{"value": "64px"}
+        }
+    }
+}

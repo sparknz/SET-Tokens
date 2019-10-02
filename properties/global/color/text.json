@@ -1,0 +1,59 @@
+{
+    "color": {
+        "text": {
+            "main1": {
+                "default": { "value": "{color.base.neutral.black.value}"},
+                "invert": {"value": "{color.base.neutral.white.value}"}
+            },
+            "main2":{
+                "default": { "value": "{color.base.neutral.darkest.value}"},
+                "invert": {"value": "{color.base.neutral.lightest.value}"}
+            },
+            "default": {
+                "default": { "value": "{color.base.neutral.darkest.value}"},
+                "invert": {"value": "{color.base.neutral.lightest.value}"}
+            },
+            "alt1": {
+                "default": { "value": "{color.base.neutral.darker.value}"},
+                "invert": {"value": "{color.base.neutral.lighter.value}"}
+            },
+            "alt2": {
+                "default": { "value": "{color.base.neutral.dark.value}"},
+                "invert": {"value": "{color.base.neutral.light.value}"}
+            },
+            "error": {
+                "default": { "value": "{color.base.red.default.value}"},
+                "invert": {"value": "{color.base.red.default.value}"}
+            }, 
+            "info": {
+                "default": { "value": "{color.base.orange.default.value}"},
+                "invert": {"value": "{color.base.orange.default.value}"}
+            }, 
+            "success": {
+                "default": { "value": "{color.base.green.default.value}"},
+                "invert": {"value": "{color.base.green.default.value}"}
+            },
+            "placeHolder": {
+                "default": { "value": "{color.base.neutral.default.value}"},
+                "invert": {"value": "{color.base.neutral.default.value}"}
+            },
+            "interaction": { 
+                "default": {"value": "{color.base.blue.default.value}"},
+                "invert": {"value": "{color.base.blue.default.value}"}
+            },
+            "hover": { 
+                "default": {"value": "{color.base.blue.default.value}"},
+                "invert": {"value": "{color.base.blue.default.value}"}
+            },
+            "disabled": { 
+                "default": {"value": "{color.base.neutral.lighter.value}"},
+                "invert": {"value": "{color.base.neutral.lighter.value}"}
+            },
+            "active": { 
+                "default": {"value": "{color.base.blue.default.value}"},
+                "invert": {"value": "{color.base.blue.default.value}"}
+            }
+        }
+    }
+}
+  

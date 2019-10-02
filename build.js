@@ -1,40 +1,71 @@
 const StyleDictionaryPackage = require('style-dictionary');
-const fs = require('fs');
-const deepDiff = require('return-deep-diff');
 
-const config = JSON.parse(fs.readFileSync('./config.json')); 
+function getScssConfig(theme){
+  return {
+    "transformGroup": "scss",
+    "buildPath": `dist/scss/`,
+    "files": [{
+      "destination": `${theme}_variable.scss`,
+      "format": "scss/variables",
+    }]
+  }
+}
+
+function getSketchConfig(theme){
+  return {
+    "buildPath": `dist/sketch/`,
+    "transforms": ["attribute/cti", "name/cti/kebab", "color/sketch"],
+    "files": [{
+      "destination": `${theme}_palettes.sketchpalette`,
+      "format": "sketch/palette/v2",
+      "filter": (token) => token.name.includes('color')
+    }]
+  }
+}
+
+function getJsConfig(theme){
+  return {
+    "buildPath": `dist/js/`,
+    "transformGroup": "web",
+    "files": [{
+      "destination": `${theme}.json`,
+      "format": "json/nested",
+    }]
+  }
+}
+
+function getDocsConfig(theme){
+  return {
+    "buildPath": `dist/docs/`,
+    "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
+    "files": [{
+      "destination": `${theme}.json`,
+      "format": "json/flat",
+    }]
+  }
+}
+
+function getStyleDictionaryConfig(theme){
+    return {
+        "source": [
+             "properties/global/**/*.json",
+             `properties/themes/${theme}/**/*.json`,
+        ],
+        "platforms": {
+          "scss": getScssConfig(theme),
+          "sketch": getSketchConfig(theme),
+          "js": getJsConfig(theme),
+          "docs": getDocsConfig(theme),
+        }
+      }
+}
 
 console.log('Build started...');
 
-require('./generateThemes').then(() => {
-
-
-    const StyleDictionary = require('style-dictionary').extend(config);
-    StyleDictionary.buildAllPlatforms();
-    
-    const varitationTypes = fs.readdirSync('./variations');
-    
-    const base = StyleDictionary.exportPlatform('web/json');
-    const output = {
-        base,
-    }
-    
-    varitationTypes.map(function (variationType) {
-        console.log('\n==============================================');
-        output[variationType] = {};
-        fs.readdirSync(`./variations/${variationType}`).map(function (variation) {
-            console.log('\n==============================================');
-            console.log('Collision from here are normal');
-            const myConfig = Object.assign({}, config);
-            myConfig.source.push(`variations/${variationType}/${variation}/**/*.json`)
-            const StyleDictionaryVariation = require('style-dictionary').extend(config);
-            output[variationType][variation] = deepDiff(base, StyleDictionaryVariation.exportPlatform('web/json'), true);
-            
-        });
-    })
-    
-    console.log('\n==============================================');
-    console.log('Writing tokens with variations');
-    fs.writeFileSync('./build/web/tokensWithVariations.json', JSON.stringify(output));
-
-});
+['pinkGreen', 'purpleOrange', "halloween"].map(function (theme) {
+        console.log(`\nProcessing: [${theme}]`);
+        const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(theme));
+        StyleDictionary.cleanAllPlatforms();
+        StyleDictionary.buildAllPlatforms();
+        console.log(`\nEnd processing`);
+})

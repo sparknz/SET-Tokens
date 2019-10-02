@@ -1,0 +1,14 @@
+{
+    "size":{
+        "font":{
+            "xxs": {"value": 10},
+            "xs": {"value": 12},
+            "small": {"value": 14},
+            "default" : {"value": 16},
+            "large": {"value": 24},
+            "xl": {"value": 32},
+            "xxl": {"value": 40},
+            "xxxl":{"value": 48}
+        }
+    }
+}
