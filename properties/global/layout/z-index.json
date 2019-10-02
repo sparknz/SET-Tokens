@@ -4,11 +4,11 @@
             "bottomlessPit": {"value": -9999},
             "default": {"value": 1},
             "dropdown": {"value": 200},
-            "overlay": {"value": 400},
-            "sticky": {"value": 600},
-            "spinner": {"value": 800},
-            "popover": {"value": 1000},
-            "modal": {"value": 1200},
+            "sticky": {"value": 400},
+            "popover": {"value": 600},
+            "overlay": {"value": 800},
+            "modal": {"value": 1000},
+            "spinner": {"value": 1200},
             "overTheMoon": {"value": 9999}
         }
     }
