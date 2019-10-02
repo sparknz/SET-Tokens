@@ -1,0 +1,15 @@
+{
+    "color": {
+        "background": {
+            "main1": {
+                "default": { "value": "{color.base.pink.default.value}"},
+                "invert": {"value": "{color.base.pink.default.value}"}
+            },
+            "main2": {
+                "default": { "value": "{color.base.green.default.value}"},
+                "invert": {"value": "{color.base.green.default.value}"}
+            }
+        }
+
+    }
+}

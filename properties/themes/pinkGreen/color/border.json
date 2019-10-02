@@ -1,11 +1,11 @@
 {
     "color": {
-        "main": {
-            "default": {
+        "border": {
+            "main1": {
                 "default": { "value": "{color.base.pink.default.value}"},
                 "invert": {"value": "{color.base.pink.default.value}"}
             },
-            "alt1": {
+            "main2": {
                 "default": { "value": "{color.base.green.default.value}"},
                 "invert": {"value": "{color.base.green.default.value}"}
             }

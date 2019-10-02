@@ -1,6 +1,14 @@
 {
     "color": {
         "text": {
+            "main1": {
+                "default": { "value": "{color.base.neutral.black.value}"},
+                "invert": {"value": "{color.base.neutral.white.value}"}
+            },
+            "main2":{
+                "default": { "value": "{color.base.neutral.darkest.value}"},
+                "invert": {"value": "{color.base.neutral.lightest.value}"}
+            },
             "default": {
                 "default": { "value": "{color.base.neutral.darkest.value}"},
                 "invert": {"value": "{color.base.neutral.lightest.value}"}
