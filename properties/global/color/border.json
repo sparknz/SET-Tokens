@@ -33,6 +33,10 @@
                 "default": { "value": "{color.base.green.light.value}"},
                 "invert": {"value": "{color.base.green.light.value}"}
             },
+            "placeHolder": {
+                "default": { "value": "{color.base.neutral.default.value}"},
+                "invert": {"value": "{color.base.neutral.default.value}"}
+            },
             "interaction": { 
                 "default": {"value": "{color.base.blue.default.value}"},
                 "invert": {"value": "{color.base.blue.default.value}"}
