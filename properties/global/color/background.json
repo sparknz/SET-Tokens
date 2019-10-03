@@ -66,8 +66,8 @@
                 "invert": {"value": "{color.base.neutral.default.value}"}
             },
             "active2": { 
-                "default": {"value": "{color.base.blue.lighter.value}"},
-                "invert": {"value": "{color.base.blue.lighter.value}"}
+                "default": {"value": "{color.base.neutral.lighter.value}"},
+                "invert": {"value": "{color.base.neutral.lighter.value}"}
             }
         }
     }
