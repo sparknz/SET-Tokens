@@ -1,0 +1,19 @@
+{
+    "color": {
+        "shadow": {
+            "default": {
+                "default": { "value": "{color.base.neutral.darkest.value}"},
+                "invert": {"value": "{color.base.neutral.lightest.value}"}
+            },
+            "interaction1": { 
+                "default": {"value": "{color.base.blue.light.value}"},
+                "invert": {"value": "{color.base.blue.light.value}"}
+            },
+            "interaction2": { 
+                "default": {"value": "{color.base.neutral.lightest.value}"},
+                "invert": {"value": "{color.base.neutral.lightest.value}"}
+            }
+        }
+    }
+}
+  
