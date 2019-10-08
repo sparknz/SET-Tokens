@@ -1,8 +1,7 @@
 {
     "layout":{
         "breakpoint":{
-            "mobile": {"value": 319},
-            "phablet": {"value": 639},
+            "mobile": {"value": 639},
             "tablet": {"value": 939},
             "desktopMini": {"value": 1199}
         }

@@ -8,7 +8,8 @@
             "popover": {"value": 600},
             "overlay": {"value": 800},
             "modal": {"value": 1000},
-            "spinner": {"value": 1200},
+            "snackbar": {"value": 1200},
+            "spinner": {"value": 1400},
             "overTheMoon": {"value": 9999}
         }
     }
