@@ -1,0 +1,9 @@
+{
+    "misc":{
+        "opacity":{
+            "default": {"value": "0.5"},
+            "opaque": {"value": "0.8"},
+            "translucent" : {"value": "0.2"}
+        }
+    }
+}

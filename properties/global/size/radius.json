@@ -1,0 +1,10 @@
+{
+    "size":{
+        "radius":{
+            "default": {"value": "4px"},
+            "circle": {"value": "50%"},
+            "small" : {"value": "2px"},
+            "large" : {"value": "8px"}
+        }
+    }
+}
