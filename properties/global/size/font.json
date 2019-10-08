@@ -1,7 +1,6 @@
 {
     "size":{
         "font":{
-            "xxs": {"value": 10},
             "xs": {"value": 12},
             "small": {"value": 14},
             "default" : {"value": 16},
