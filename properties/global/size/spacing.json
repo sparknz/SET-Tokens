@@ -1,7 +1,6 @@
 {
     "size":{
         "spacing":{
-            "half": {"value": "4px"},
             "1": {"value": "8px"},
             "2": {"value": "16px"},
             "3": {"value": "24px"},
@@ -11,7 +10,7 @@
             "7": {"value": "56px"},
             "8":{"value": "64px"},
             "9":{"value": "72px"},
-            "10":{"value": "72px"}
+            "10":{"value": "80px"}
         }
     }
 }
