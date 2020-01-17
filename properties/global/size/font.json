@@ -1,13 +1,16 @@
 {
     "size":{
         "font":{
-            "xs": {"value": 12},
-            "small": {"value": 14},
-            "default" : {"value": 16},
-            "large": {"value": 24},
-            "xl": {"value": 32},
-            "xxl": {"value": 40},
-            "xxxl":{"value": 48}
+            "s1": {"value": 12},
+            "s2": {"value": 14},
+            "s3": {"value": 16},
+            "s4": {"value": 18},
+            "s5": {"value": 20},
+            "l1": {"value": 24},
+            "l2": {"value": 32},
+            "l3": {"value": 40},
+            "l4": {"value": 48},
+            "l5": {"value": 56}
         }
     }
 }

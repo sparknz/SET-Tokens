@@ -1,0 +1,9 @@
+{
+    "size":{
+        "line_height":{
+            "small": {"value": 1},
+            "default" : {"value": 1.25},
+            "large": {"value": 1.5}
+        }
+    }
+}
