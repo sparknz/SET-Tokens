@@ -1,5 +1,14 @@
 const StyleDictionaryPackage = require('style-dictionary');
 
+StyleDictionaryPackage.registerTransform({
+  name:'name/cti/human',
+  type: 'name',
+  transformer: function(prop, options) {
+    const path = [options.prefix].concat(prop.path).join(' ').trim();
+    return path;
+  }
+})
+
 function getScssConfig(theme){
   return {
     "transformGroup": "scss",
@@ -37,7 +46,7 @@ function getJsConfig(theme){
 function getDocsConfig(theme){
   return {
     "buildPath": `dist/docs/`,
-    "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
+    "transforms": ["attribute/cti", "name/cti/human", "color/css"],
     "files": [{
       "destination": `${theme}.json`,
       "format": "json/flat",
