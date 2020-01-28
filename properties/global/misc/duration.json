@@ -2,13 +2,13 @@
     "misc":{
         "duration":{
             "instant": {"value": 0},
-            "fastest": {"value": 0.05},
-            "faster":{"value": 0.1},
-            "fast":{"value": 0.2},
+            "shortest": {"value": 0.05},
+            "shorter":{"value": 0.1},
+            "short":{"value": 0.2},
             "default":{"value": 0.4},
-            "slow":{"value": 0.8},
-            "slower":{"value": 1.6},
-            "slowest":{"value": 3.2}
+            "long":{"value": 0.8},
+            "longer":{"value": 1.6},
+            "longest":{"value": 3.2}
         }
     }
 }
