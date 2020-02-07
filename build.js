@@ -16,14 +16,16 @@ StyleDictionaryPackage.registerFormat({
     name: "newFormat",
     formatter: function(dictionary, config) {
         let out = "";
-        const properties = Object.values(dictionary.properties);
-        for (p of properties) {
-            const cs = Object.entries(p);
+        const properties = Object.entries(dictionary.properties);
+        for ([pKey, pVal] of properties) {
+            const cs = Object.entries(pVal);
             for ([key, value] of cs) {
-                out += `export enum ${key} { 
+                out += `export interface I${toUpperFirst(pKey)}${toUpperFirst(
+                    key
+                )} { 
                     ${Object.keys(value)
-                        .map(key => `I${key} = '${key}'`)
-                        .toString()}
+                        .map(key => `${key}: string`)
+                        .join("; \n")}
                 }`;
             }
         }
@@ -31,6 +33,10 @@ StyleDictionaryPackage.registerFormat({
         return out;
     }
 });
+
+function toUpperFirst(s) {
+    return s.charAt(0).toUpperCase() + s.slice(1);
+}
 
 function getScssConfig(theme) {
     return {
