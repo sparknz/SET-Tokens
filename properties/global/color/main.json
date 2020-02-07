@@ -1,0 +1,58 @@
+{
+    "color": {
+        "background": {
+            "main1": {
+                "default": { "value": "{color.base.pink.default.value}" },
+                "invert": { "value": "{color.base.pink.default.value}" }
+            },
+            "main2": {
+                "default": { "value": "{color.base.green.default.value}" },
+                "invert": { "value": "{color.base.green.default.value}" }
+            },
+            "main3": {
+                "default": { "value": "{color.base.orange.default.value}" },
+                "invert": { "value": "{color.base.orange.default.value}" }
+            },
+            "main4": {
+                "default": { "value": "{color.base.purple.default.value}" },
+                "invert": { "value": "{color.base.purple.default.value}" }
+            }
+        },
+        "border": {
+            "main1": {
+                "default": { "value": "{color.base.pink.default.value}" },
+                "invert": { "value": "{color.base.pink.default.value}" }
+            },
+            "main2": {
+                "default": { "value": "{color.base.green.default.value}" },
+                "invert": { "value": "{color.base.green.default.value}" }
+            },
+            "main3": {
+                "default": { "value": "{color.base.orange.default.value}" },
+                "invert": { "value": "{color.base.orange.default.value}" }
+            },
+            "main4": {
+                "default": { "value": "{color.base.purple.default.value}" },
+                "invert": { "value": "{color.base.purple.default.value}" }
+            }
+        },
+        "text": {
+            "main1": {
+                "default": { "value": "{color.base.pink.default.value}" },
+                "invert": { "value": "{color.base.pink.default.value}" }
+            },
+            "main2": {
+                "default": { "value": "{color.base.green.default.value}" },
+                "invert": { "value": "{color.base.green.default.value}" }
+            },
+            "main3": {
+                "default": { "value": "{color.base.orange.default.value}" },
+                "invert": { "value": "{color.base.orange.default.value}" }
+            },
+            "main4": {
+                "default": { "value": "{color.base.purple.default.value}" },
+                "invert": { "value": "{color.base.purple.default.value}" }
+            }
+        }
+    }
+}
