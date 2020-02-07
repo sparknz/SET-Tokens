@@ -15,14 +15,12 @@ StyleDictionaryPackage.registerTransform({
 StyleDictionaryPackage.registerFormat({
     name: "newFormat",
     formatter: function(dictionary, config) {
-        console.log(dictionary);
-
         let out = "";
         const properties = Object.values(dictionary.properties);
         for (p of properties) {
             const cs = Object.entries(p);
             for ([key, value] of cs) {
-                out += `enum ${key} { 
+                out += `export enum ${key} { 
                     ${Object.keys(value)
                         .map(key => `I${key} = '${key}'`)
                         .toString()}
